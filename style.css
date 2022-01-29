@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body{
+    background: #00c3ff;  
+background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  
+background: linear-gradient(to right, #ffff1c, #00c3ff);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    width: 80%;
+    height:80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    
+}
+.left{
+    margin: 0 20px 0 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.left img{
+    width: 160px;
+    margin-bottom: 40px;
+}
+.left h4{
+    font-size: 30px;
+    color: black;
+}
+.left p{
+    text-align: center;
+    font-size: 15px;
+    width: 200px;
+    margin: 10px;
+    color: black;
+}
+.left input{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    /* font-weight: bold; */
+    border: none;
+    margin: 10px;
+    width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 30px;
+}
+
+
+
+.right{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 20px 0 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    /* border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; */
+    border-radius: 70px 0 0 70px;
+}
+
+.heading h4{
+    position: absolute;
+    top: 25%;
+    right: 22%;
+   color: gray;
+   font-weight: bold;
+    font-size: 20px;
+    /* margin: 10px; */
+}
+
+.input {
+    align-items: center;
+    width: 80%;
+    margin: 0 0 0 60px;
+}
+.input input{
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+.btn input{
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    right: 11%;
+    margin: 20px;
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
